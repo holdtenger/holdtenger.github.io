@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: "oswald";
+    src: url("fonts/Oswald-Medium.ttf");
+    font-weight:  500;
+}
+
+
+html {
+    text-transform: lowercase;
+}
+
+        h1 {
+            color: rgb(136, 94, 17);
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+
+        li {
+            color: green;
+            font-size: 12px;
+            font-family: 'Playfair Display', serif;
+            text-align: justify;
+            text-transform: lowercase;
+            line-height: 30px;
+            font-weight: 700;
+        }
+
+        img {
+            width: 200px;
+        
+        }
