@@ -1,0 +1,10 @@
+#colorDiv {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(81, 165, 218, 0.2);
+}
+
+html {
+    background: url(../img/nuclear_apocalypse.png) no-repeat, slategray;
+}

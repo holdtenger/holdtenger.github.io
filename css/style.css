@@ -6,9 +6,42 @@
     font-weight:  500;
 }
 
+#kieg-header {
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.content {
+    font-style: normal;
+    text-align: justify;
+    color: rgb(88, 37, 0);
+    background-color: rgb(221, 168, 177);
+    border-radius: 5px;
+    padding: 3px 20px 5px 10px;
+    border: ridge 5px burlywood;
+    box-shadow: cornsilk;
+    max-width: 75%;
+    position: sticky;
+}
+
+.img-div {
+  background-color: rgba(204, 177, 151, 0.329);
+  box-shadow: 3px 3px 5px black;
+  margin: 1%;
+  width: 13%;
+}
+
+.img-div-light {
+    background-color: rgb(184, 102, 27, 0.329);
+    margin: 10px 20px 10px 30px;
+}
 
 html {
-    text-transform: lowercase;
+    text-transform: none;
+    font-family: 'Playfair Display', serif;
 }
 
         h1 {
@@ -33,7 +66,9 @@ html {
             font-weight: 700;
         }
 
-        img {
-            width: 200px;
-        
+        #img1 {
+            position: absolute;
+            top: 10px;
         }
+        
+        
