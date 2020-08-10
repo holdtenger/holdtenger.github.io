@@ -1,0 +1,65 @@
+body {
+    background-color: #e0dcdc;
+}
+
+.login-div {
+    padding: 15px;
+    border: solid 2px aliceblue;
+    box-shadow: 0 0 2px;
+    display: inline-block;
+}
+
+.login-div input { 
+    display: block;
+    margin-bottom: 7px;
+    
+}
+/*
+.login-div input[class="form-control"]{
+    border: solid 1px #992727;
+}*/
+
+input[class^="blue"]{
+    border: solid 1px blue;
+}
+input[class$="red"]{
+    border: solid 1px red;
+}
+
+/*.submit-btn button:hover
+{
+    box-shadow: 2px 2px 5px #923131;
+}
+*/
+.login-div button:hover {
+    box-shadow: 2px 2px 5px #923131;
+}
+
+.login-div :focus[class*="control"]
+{
+    box-shadow: 2px 3px 3px blue;
+}
+
+ul li:last-child {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+}
+ul li:first-child {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+ul li:nth-child(2) {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+.inputData {
+    display: block;
+}
+
+.checkbox {
+    display: block;
+}

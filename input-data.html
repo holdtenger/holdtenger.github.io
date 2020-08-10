@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input data </title>
+    <link rel="stylesheet" href="css/selectors.css">
+</head>
+<body>
+    <H1>Regisztráció</H1>
+    <form>
+        <fieldset>
+            <legend> személyes adatok                
+            </legend>
+            <div>
+                <div>
+                    <label>First Name</label>
+                    <input class="inputData" type="text" name="firstname">
+                </div>
+                <label>E-mail</label>
+                <input class="inputData" type="email" name="email">
+                <br>
+                <label>Password</label>
+                <input class="inputData" type="password" name="Password">
+                <br>
+                <label>Birth date</label>
+                <input class="inputData" type="date" name="date">
+                <br>
+    
+            </div>
+
+        </fieldset>
+
+<fieldset> <legend>feltétek</legend>
+    <div class="Checkbox">
+<input checked id="nothing" name="extra" type="radio" value="0">
+<label for="nothing">Thx no.</label>
+    </div>
+    <div class="Checkbox">
+<input id="cheese" name="extra" type="radio" value="300">
+<label for="cheese">Cheese</label>
+    </div>
+    <div class="Checkbox">
+<input checked id="d-cheese" name="extra" type="radio" value="600">
+<label for="cheese">Double cheese</label>
+    </div>
+    <div class="Checkbox">
+<input checked id="d-meat" name="extra" type="radio" value="900">
+<label for="cheese">Double meat</label>
+    </div>
+
+</fieldset>
+
+
+    </form>
+</body>
+</html>
